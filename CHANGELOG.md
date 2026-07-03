@@ -4,6 +4,36 @@ All notable changes to Quirio are recorded here, newest first. Version numbers
 follow [semantic versioning](https://semver.org): `MAJOR.MINOR.PATCH` — bump the
 last number for fixes, the middle for new features, the first for big milestones.
 
+## [0.5.1] — 2026-07-03
+
+A download-and-casting release: the installer now opens the way the install
+steps promise, and sending a book to a speaker got a lot steadier.
+
+### Fixed
+
+- **First launch no longer claims “Quirio is damaged.”** Earlier downloads
+  shipped with a broken code signature, so macOS refused them outright — with
+  no way forward but a Terminal command. The app is now properly signed at
+  build time: first launch shows the standard one-time “could not verify”
+  warning instead, and **System Settings → Privacy & Security → Open Anyway**
+  clears it, exactly as the install steps describe.
+- **Casting holds up for big books and Apple Lossless.** Apple Lossless books
+  now cast (Quirio quietly converts them first; your original file is never
+  touched), and a speaker that needs a while to read a long book is given that
+  while — no more silent give-ups or retry loops mid-handoff. A finished book
+  now ends its cast cleanly, and one press starts a re-listen.
+
+### Improved
+
+- **Better company while a speaker gets ready.** Casting a long book shows a
+  calm waiting state with a soft estimate, instead of leaving you to wonder
+  whether anything is happening.
+- **Long books are served to Cast speakers index-first** when the file keeps
+  its index at the tail, so the speaker never needs a second pass through a
+  large file. Nothing about your files changes.
+- **Security hardening under the hood**, from a top-to-bottom audit of how the
+  app’s windows and processes talk to each other.
+
 ## [0.5.0] — 2026-06-27
 
 The biggest update yet: a new way to look at a book before you play it, and a real

@@ -18,7 +18,7 @@
 
   <br/>
 
-  [![Download Quirio for macOS](https://img.shields.io/badge/Download%20for%20macOS-v0.5.0%20beta-C8922A?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/theglimmerman/quirio-app/releases/latest)
+  [![Download Quirio for macOS](https://img.shields.io/badge/Download%20for%20macOS-v0.5.1%20beta-C8922A?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/theglimmerman/quirio-app/releases/latest)
 
   &nbsp;
 
@@ -155,11 +155,11 @@ Quirio is a free hobby project and is currently an **unsigned beta** — it hasn
 
 That’s it — Quirio opens, and every launch after this is a normal double-click.
 
-> 💡 The **Open Anyway** button only appears for about an hour after you *try* to open the app, so do step 1 first. On some macOS versions you can also **right-click Quirio → Open → Open** as a shortcut.
+> 💡 The **Open Anyway** button only appears for about an hour after you *try* to open the app, so do step 1 first. (If you remember the old **right-click → Open** trick — macOS retired it a few versions back.)
 
 ### If you see “Quirio is damaged”
 
-Occasionally macOS shows *“Quirio is damaged and can’t be opened”* instead. The app isn’t damaged — that’s the **quarantine flag** macOS adds to anything downloaded from the internet. Clear it in one line:
+Downloads of **v0.5.0 and earlier** show *“Quirio is damaged and can’t be opened”* instead of the warning above. The app isn’t damaged — those early builds had a packaging bug (fixed since) that made macOS misread the download. The clean fix is to grab the **[latest release](https://github.com/theglimmerman/quirio-app/releases/latest)**. To rescue an older copy instead, clear its quarantine flag in one line:
 
 1. Open **Terminal** (Applications → Utilities → Terminal).
 2. Paste this and press **Return**:

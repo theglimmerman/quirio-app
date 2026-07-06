@@ -4,6 +4,19 @@ All notable changes to Quirio are recorded here, newest first. Version numbers
 follow [semantic versioning](https://semver.org): `MAJOR.MINOR.PATCH` — bump the
 last number for fixes, the middle for new features, the first for big milestones.
 
+## [0.6.0] — 2026-07-06
+
+Quirio grows up a little: it’s now a properly signed Mac app.
+
+### Changed
+
+- **Quirio is now signed and notarized with Apple.** Every release is scanned
+  by Apple before it reaches you, so the first launch is a single click —
+  **Open** — with no trip through System Settings. Permissions you grant now
+  carry across updates, too. One heads-up when coming from v0.5.1 or earlier:
+  macOS sees the newly signed app as new, and asks its one-time questions once
+  more.
+
 ## [0.5.1] — 2026-07-03
 
 A download-and-casting release: the installer now opens the way the install

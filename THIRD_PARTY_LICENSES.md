@@ -1,6 +1,6 @@
 # Quirio — Third-Party Software Notices
 
-_Last generated: 2026-07-03. Quirio version 0.5.1._
+_Last generated: 2026-07-06. Quirio version 0.6.0._
 
 Quirio is built with Electron and bundles the open-source libraries listed below. Every bundled library is distributed under a permissive license (MIT, ISC, or BSD-3-Clause), which requires only that we reproduce the copyright notice and license text — included in full below. None of these licenses require Quirio to publish its own source code.
 

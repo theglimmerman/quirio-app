@@ -18,7 +18,7 @@
 
   <br/>
 
-  [![Download Quirio for macOS](https://img.shields.io/badge/Download%20for%20macOS-v0.5.1%20beta-C8922A?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/theglimmerman/quirio-app/releases/latest)
+  [![Download Quirio for macOS](https://img.shields.io/badge/Download%20for%20macOS-v0.6.0%20beta-C8922A?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/theglimmerman/quirio-app/releases/latest)
 
   &nbsp;
 
@@ -59,6 +59,7 @@
   - [Download](#1-download)
   - [Open it the first time (the macOS warning)](#2-open-it-the-first-time)
   - ["Quirio is damaged" — the quick fix](#if-you-see-quirio-is-damaged)
+  - [Updating Quirio](#updating-quirio)
   - [Verify your download (optional)](#verify-your-download-optional)
 - [Getting started](#getting-started)
 - [Keyboard shortcuts](#keyboard-shortcuts)
@@ -146,16 +147,14 @@ Open the `.dmg` and drag **Quirio** onto the **Applications** folder.
 
 ### 2. Open it the first time
 
-Quirio is a free hobby project and is currently an **unsigned beta** — it hasn’t been through Apple’s paid notarization yet. So on first launch, macOS plays it safe and shows a warning like *“Apple could not verify Quirio is free of malware.”* **This is expected, and it doesn’t mean anything is wrong.** Here’s the one-time step:
+Quirio is **signed and notarized with Apple** — every release goes through Apple’s malware scan before it reaches you. So the first launch is the ordinary kind: macOS notes the app came from the internet and asks once.
 
-1. In **Applications**, double-click **Quirio**. macOS blocks it — that’s fine, click **Done**.
-2. Open  **System Settings → Privacy &amp; Security**.
-3. Scroll down to the **Security** section. You’ll see *“Quirio was blocked to protect your Mac.”* Click **Open Anyway**.
-4. Confirm with **Open Anyway**, then enter your Mac password (or Touch ID).
+1. In **Applications**, double-click **Quirio**.
+2. macOS asks if you’re sure you want to open an app downloaded from the internet — click **Open**.
 
-That’s it — Quirio opens, and every launch after this is a normal double-click.
+That’s it — every launch after this is a normal double-click.
 
-> 💡 The **Open Anyway** button only appears for about an hour after you *try* to open the app, so do step 1 first. (If you remember the old **right-click → Open** trick — macOS retired it a few versions back.)
+> 💡 Seeing a stronger warning than that? You’re holding an older download from Quirio’s unsigned-beta days (v0.5.1 and earlier) — grab the **[latest release](https://github.com/theglimmerman/quirio-app/releases/latest)** and it goes away.
 
 ### If you see “Quirio is damaged”
 
@@ -168,7 +167,13 @@ Downloads of **v0.5.0 and earlier** show *“Quirio is damaged and can’t be op
    ```
 3. Open Quirio normally.
 
-> Only run commands like this for apps you trust and downloaded yourself. The warning disappears for good once Quirio ships **signed &amp; notarized**.
+> Only run commands like this for apps you trust and downloaded yourself. Quirio now ships **signed &amp; notarized**, so current downloads never see this — it’s strictly a rescue for old copies.
+
+### Updating Quirio
+
+Download the new `.dmg` and drag Quirio into **Applications** again, replacing the old copy — your library, your places, and your settings all stay put, and now that releases are signed, the permissions you’ve granted carry over too.
+
+One exception: coming from **v0.5.1 or earlier** (the unsigned-beta days), macOS sees the signed Quirio as a new app and asks its questions one final time — the [first-launch confirmation](#2-open-it-the-first-time) above, any permissions you’d granted (your audiobook folder or drive, casting on your network), and a keychain question about **“Quirio Safe Storage”**. That last one is a key Quirio created to encrypt its own engine data — it can’t read anything else in your keychain; enter your Mac password and click **Always Allow**. Once through, updates stay quiet.
 
 ### Verify your download (optional)
 
@@ -252,7 +257,7 @@ Quirio is **local and offline**, by nature rather than as a feature.
 
 <details>
   <summary><b>Why does macOS warn me when I open it?</b></summary><br/>
-  Because this is a small, independent app still in <b>beta</b>, and it hasn’t been through Apple’s paid notarization yet — so macOS plays it safe and asks first. It isn’t a sign anything’s wrong. See <a href="#2-open-it-the-first-time">Open it the first time</a> for the one-time step.
+  It mostly doesn’t anymore. Quirio is <b>signed and notarized with Apple</b> — every release is scanned by Apple before it reaches you — so first launch is just a quick “downloaded from the internet” confirmation. A stronger warning means an old download from the unsigned-beta days: grab the <a href="https://github.com/theglimmerman/quirio-app/releases/latest">latest release</a>.
 </details>
 
 <details>

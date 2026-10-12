@@ -4,6 +4,47 @@ All notable changes to Quirio are recorded here, newest first. Version numbers
 follow [semantic versioning](https://semver.org): `MAJOR.MINOR.PATCH` — bump the
 last number for fixes, the middle for new features, the first for big milestones.
 
+## [0.7.0] — 2026-10-11
+
+The cover finder gets a proper rethink: more covers worth choosing between, and
+far fewer copies of the same one.
+
+### Added
+
+- **Community covers.** Alongside the store artwork, the cover finder now shows
+  alternate and banner-free covers made and shared by listeners on
+  r/AudiobookCovers, found through AudiobookCovers.com — each with a link back
+  to the post it came from, and that credit stays with the book. They’re on by
+  default; the first time they appear you can switch them off in one click, and
+  the switch lives in **Settings › Library** after that.
+- **A large preview before you commit.** Hover a cover and the big frame shows
+  it full-size, marked *Preview*, with where it’s from and how sharp it is.
+  Nothing is applied until you click.
+- **About these sources.** A small *i* in the finder says plainly where covers
+  come from and exactly what leaves your Mac when you search.
+
+### Changed
+
+- **Results are sorted, not piled.** *Best matches* first, *Community covers*
+  below, and translations, box sets and other books in a series folded away
+  under one quiet row. The same artwork from several listings now appears once,
+  with a small ×3 on it.
+- **Messy titles find their covers.** “(Unabridged)”, track numbers and long
+  series subtitles no longer derail the search.
+- **Sharper store covers.** Covers from the online catalogue now arrive at full
+  size (2400 px) instead of 500.
+- **Honest messages.** If a cover service can’t be reached, the finder says
+  which one — and shows the rest — instead of “No covers found.”
+- Label pills on covers never get clipped: in a narrow window the grid drops a
+  column rather than shrinking the tiles.
+- The privacy wording in the finder, Settings, Help, the README and the license
+  agreement now describes the cover search exactly as it behaves.
+
+### Fixed
+
+- A stalled cover download could leave the finder waiting for minutes; every
+  request now gives up after a few seconds.
+
 ## [0.6.0] — 2026-07-06
 
 Quirio grows up a little: it’s now a properly signed Mac app.

@@ -22,8 +22,13 @@ the terms below. If you do not agree, do not install or use the Software.
 3. YOUR CONTENT
    Quirio plays audiobook files that you supply from your own library. You are
    responsible for ensuring you have the right to use those files. Quirio does
-   not include, sell, or distribute any audiobook content, and operates fully
-   offline on your own files.
+   not include, sell, or distribute any audiobook content, and plays your own
+   files fully offline.
+
+   If you use the optional cover finder, Quirio sends that book's title and
+   author to third-party cover services and downloads the image you choose.
+   Those images belong to their respective owners; Quirio does not host, sell,
+   or distribute them, and is not affiliated with those services.
 
 4. OPEN-SOURCE COMPONENTS
    The Software includes third-party open-source components, each governed by

@@ -18,7 +18,7 @@
 
   <br/>
 
-  [![Download Quirio for macOS](https://img.shields.io/badge/Download%20for%20macOS-v0.6.0%20beta-C8922A?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/theglimmerman/quirio-app/releases/latest)
+  [![Download Quirio for macOS](https://img.shields.io/badge/Download%20for%20macOS-v0.7.0%20beta-C8922A?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/theglimmerman/quirio-app/releases/latest)
 
   &nbsp;
 
@@ -95,7 +95,7 @@ That’s the gap Quirio fills. It’s not a market and it’s not a subscription
 | 🔒 **Yours and private** | No account, no subscription, no cloud. Everything lives on your Mac, offline — nothing uploaded, nothing tracked, nothing to renew. |
 | 🎧 **Listen anywhere** | Send just Quirio’s audio to AirPods or desk speakers, or hand a book to a Google Cast speaker across the house. Media keys, AirPods controls, and a pinned mini-player keep it close while you work. |
 | 🧹 **It tidies up after you** | Reads chapters and cover art, sorts a real shelf, and — when a box set or CD rip is unclear — asks one quick question instead of guessing. It never moves or rewrites your originals. |
-| ✍️ **Make it yours** | Fix a title, find a sharper cover (search online, paste your own, or drag one in), and mark the books you love or have finished. Every edit layers on top — your files are never rewritten. |
+| ✍️ **Make it yours** | Fix a title, find a sharper cover (store art, community covers from r/AudiobookCovers, your own paste, or a drag-in), and mark the books you love or have finished. Every edit layers on top — your files are never rewritten. |
 | 💾 **Your whole library travels** | Back up covers, edits, finished and favorite marks, and progress to a single file — or let Quirio do it daily, to iCloud or a drive. Move to a new Mac and your shelf comes with you. |
 | 🖥 **Made for the Mac** | It feels like it belongs on your machine — quick, quiet, fully keyboard-driven, calm in light or dark, with a details panel that slides in the moment you click a book. |
 
@@ -230,7 +230,7 @@ Quirio is **local and offline**, by nature rather than as a feature.
 - No account, no sign-in, nothing to renew.
 - Your library — metadata, covers, and progress — stays on your Mac. Your audio files stay wherever you keep them.
 - Nothing about your library or your listening is uploaded or tracked.
-- The only time anything touches the internet is if *you* turn on optional online cover-art lookup and *you* pick a cover to download.
+- The only time anything touches the internet is the optional cover finder. When *you* open it, that book’s title and author go to the cover sources you have switched on (Apple Books, an online audiobook catalogue, and AudiobookCovers.com for community covers), and the picture *you* pick is downloaded. Switch any source off in the finder, or the whole lookup off in Settings.
 
 <div align="right"><a href="#readme-top"><sub>↑ back to top</sub></a></div>
 
